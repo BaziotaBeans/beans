@@ -1,0 +1,24 @@
+.effect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #FFF;
+    background-color: #000;
+    z-index: 9999;
+    transform-origin: top top;
+    animation: animation_effect 1.5s ease-in 0s 1 both;
+}
+
+@keyframes animation_effect {
+    from{
+        transform: translateY(0);
+    }
+    
+    to{
+        transform: translateY(200rem);
+        height: 0;
+        //opacity: 0;
+    }
+}

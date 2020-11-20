@@ -1,0 +1,29 @@
+@keyframes colorCycle{
+    0%, 
+    55%{
+        filter: var(--filter-value);
+    }
+    11%, 
+    33%{
+        filter: none;
+    }
+}
+
+@-webkit-keyframes fade-in{
+    from{-webkit-transform: translate(40rem);transform: translate(40rem);}
+    to{-webkit-transform: translate(-.5rem);transform: translate(-.5rem);}
+}
+@keyframes fade-in{
+    from{-webkit-transform: translate(40rem);transform: translate(40rem);}
+    to{-webkit-transform: translate(-.5rem);transform: translate(-.5rem);}
+}
+
+@-webkit-keyframes fade-out{
+    from{-webkit-transform: translateX(-.5rem);transform: translateX(-.5rem);}
+    to{-webkit-transform: translate(40rem);transform: translate(40rem);}
+}
+
+@keyframes fade-out{
+    from{-webkit-transform: translateX(-.5rem);transform: translateX(-.5rem);}
+    to{-webkit-transform: translate(40rem);transform: translate(40rem);}
+}

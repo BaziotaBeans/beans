@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*:root{
+    --color-primary: #FF00B8;
+    --color-primary-hover: #D40099;
+
+    --color-header-footer:rgba(15, 15, 15, .3);
+    --color-bg: #1D1D1D;
+
+    --color-primary-gray: #E2E2E2;
+    --color-secondary-gray: #AAAAAA;
+    --color-tertiary-gray: #2D2D2D;
+
+    --color-white: #FFF;
+
+    --color-toggle-theme-button: #2D2D2D;
+    --color-toggle-theme-icon: #FFC700;
+
+    --color-line: #343434;
+
+    --color-footer: #000;
+
+    --color-black: #000;
+    --color-black-hover: #161616;
+
+    --color-big-text: #FFF;
+    --color-normal-text: #E2E2E2;
+    --color-footer-text: #AAAAAA;
+
+    --color-card: #252525;
+}*/
+
+html{
+    font-size: 62.5%;
+    background-color: var(--color-bg);
+    color: var(--color-primary-gray);
+    scroll-behavior: smooth;
+
+    --color-primary: #FF00B8;
+    --color-primary-hover: #D40099;
+
+    --color-header-footer:rgba(15, 15, 15, .85);
+    --color-bg: #1D1D1D;
+
+    --color-primary-gray: #E2E2E2;
+    --color-secondary-gray: #AAAAAA;
+    --color-tertiary-gray: #2D2D2D;
+
+    --color-white: #FFF;
+
+    --color-toggle-theme-button: #2D2D2D;
+    --color-toggle-theme-icon: #FFC700;
+
+    --color-line: #343434;
+
+    --color-footer: #000;
+
+    --color-black: #000;
+    --color-black-hover: #161616;
+
+    --color-big-text: #FFF;
+    --color-normal-text: #E2E2E2;
+    --color-footer-text: #AAAAAA;
+
+    --color-card: #252525;
+
+    --invert-effect: 0;
+
+    --color-year:  #AAAAAA;
+
+    --color-description-text: #AAAAAA;
+
+    --color-card-shadow: 0 0 .6rem #464646;
+
+    --filter-value: brightness(0) invert(1);
+
+    --color-effect: #000;
+
+    --social-primary-color: #FF00B8;
+    --social-secondary-color: #FF00B8;
+    --social-tertiary-color: #B498D8;
+    --social-quertiary-color: #efefef;
+    --yellow: #FFE600;
+
+    transition: all .5s ease-in;
+}
+
+::-webkit-scrollbar, scrollbar {
+    width: 1rem;
+}
+
+
+::-webkit-scrollbar-track { 
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 184, 1);
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 184, 1);
+    background-color: var(--quarterly);
+    
+}
+
+
+*,
+input,
+button{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
